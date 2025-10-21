@@ -12,10 +12,14 @@ int main()
     // B is a 10x1 column vector
     Eigen::Matrix<int, 10, 1> B;
     B << 8, 3,8,3,9, 4,2, 3, 6, 5;
+    
+  //  Eigen::Matrix<int,10,10> C;
+  //  Eigen::Matrix<int, 10,10> D
+   //creating 2 more matrices in case for more arithmetic (or edit A and B)
   
     // using dot() function
     int result = A.dot(B);
-    cout << "A * B = " << result << endl;
+    cout << "A * B = " << result << endl; //also verifying the result works thru terminal
 
     //displays alert onto my screen
     string alert = "osascript -e 'display alert \"A * B = " + to_string(result) + "\"'";
