@@ -1,5 +1,5 @@
 # BazelMatrix
-Using Bazel to build and run a one-file C++ project.
+- Using Bazel to build and run a one-file C++ project.
 ## How to use
 Install Bazel. 
 Then, clone repo.
