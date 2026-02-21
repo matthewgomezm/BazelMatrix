@@ -1,4 +1,4 @@
-bazel-bin
-bazel-out
-bazel-stage
-bazel-testlogs
+module/bazel-bin
+module/bazel-out
+module/bazel-stage
+module/azel-testlogs
